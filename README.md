@@ -27,22 +27,40 @@ To get started with ZenithZephyr, follow these steps:
    
 The application will be accessible at http://localhost:{update_your_port_on_env_file}.</br>
 
-*****Update all server related information and database detail on .env.example file*****
+*****Update all server related information and database detail on `.env.example` file*****
 
-**Contributing**
+**Contributing**</br>
 If you'd like to contribute to ZenithZephyr, please follow these guidelines:
 
 1. Fork the repository.
-2. Create a new branch: git checkout -b feature/new-feature.
-3. Commit your changes: git commit -m 'Add new feature'.
-4. Push to the branch: git push origin feature/new-feature.
+2. Create a new branch: `git checkout -b feature/new-feature`.
+3. Commit your changes: `git commit -m 'Add new feature'`.
+4. Push to the branch: `git push origin feature/new-feature`.
 5. Submit a pull request.
 
-**License**
-This project is licensed under the MIT License.
+**License**</br>
+This project is licensed under the `MIT` License.
   ```bash
   Feel free to customize it further based on your project's specific details and requirements.
   ```
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
 <h4 align="center">Deployed on AWS, created with ❤️ by Vinayak Gaud</h4>
 
 
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/vinayakgaud/zenith-zephyr-blog.svg?style=for-the-badge
+[contributors-url]: https://github.com/vinayakgaud/zenith-zephyr-blog/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/vinayakgaud/zenith-zephyr-blog.svg?style=for-the-badge
+[forks-url]: https://github.com/vinayakgaud/zenith-zephyr-blog/network/members
+[stars-shield]: https://img.shields.io/github/stars/vinayakgaud/zenith-zephyr-blog.svg?style=for-the-badge
+[stars-url]: https://github.com/vinayakgaud/zenith-zephyr-blog/stargazers
+[issues-shield]: https://img.shields.io/github/issues/vinayakgaud/zenith-zephyr-blog.svg?style=for-the-badge
+[issues-url]: https://github.com/vinayakgaud/zenith-zephyr-blog/issues
+[license-shield]: https://img.shields.io/github/license/vinayakgaud/zenith-zephyr-blog.svg?style=for-the-badge
+[license-url]: https://github.com/vinayakgaud/zenith-zephyr-blog/blob/master/LICENSE.txt
