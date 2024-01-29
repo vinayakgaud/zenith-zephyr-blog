@@ -43,6 +43,6 @@ This project is licensed under the MIT License.
   ```bash
   Feel free to customize it further based on your project's specific details and requirements.
   ```
-<h4>Deployed on AWS, created with ❤️ by Vinayak Gaud</h4>
+<h4 align="center">Deployed on AWS, created with ❤️ by Vinayak Gaud</h4>
 
 
