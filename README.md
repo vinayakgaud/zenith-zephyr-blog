@@ -49,6 +49,11 @@ This project is licensed under the `MIT` License.
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
+**TODO:**
+`1. Add more features
+2. UI changes
+3. Theme switcher
+4. Deploy to AWS`
 <h4 align="center">Deployed on AWS, created with ❤️ by Vinayak Gaud</h4>
 
 
