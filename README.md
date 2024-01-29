@@ -29,7 +29,7 @@ The application will be accessible at http://localhost:{update_your_port_on_env_
 
 *****Update all server related information and database detail on `.env.example` file*****
 
-**Contributing**</br>
+## Contributing</br>
 If you'd like to contribute to ZenithZephyr, please follow these guidelines:
 
 1. Fork the repository.
@@ -38,7 +38,7 @@ If you'd like to contribute to ZenithZephyr, please follow these guidelines:
 4. Push to the branch: `git push origin feature/new-feature`.
 5. Submit a pull request.
 
-**License**</br>
+## License</br>
 This project is licensed under the `MIT` License.
   ```bash
   Feel free to customize it further based on your project's specific details and requirements.
