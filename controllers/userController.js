@@ -18,6 +18,7 @@ export const createUserHandler = async (req, res) => {
     fullName,
     email,
     password,
+    profileImageURL: `/uploads/profileImage/${req.file.filename}`,
   });
   return res.redirect("/");
 };
@@ -50,4 +51,11 @@ export const loginUserHandler = async (req, res) => {
 
 export const logoutUserHandler = (req, res) => {
   res.clearCookie("token").redirect("/");
+};
+
+export const profilePageHandler = async (req, res) => {
+  console.log(req.user);
+  return res.render("profilePage", {
+    user: req.user,
+  });
 };

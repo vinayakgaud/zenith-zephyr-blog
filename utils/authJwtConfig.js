@@ -6,6 +6,7 @@ export const createTokenforUser = (user) => {
   const payload = {
     _id: user._id,
     email: user.email,
+    fullName: user.fullName,
     profileImage: user.profileImageURL,
     role: user.role,
   };

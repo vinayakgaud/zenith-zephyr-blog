@@ -2,8 +2,8 @@
   class="navbar navbar-expand-lg bg-body-tertiary bg-dark"
   data-bs-theme="dark"
 >
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">ZenithZephyr</a>
+  <div class="container">
+    <a class="navbar-brand" href="/">ZenithZephyr</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -25,7 +25,7 @@
         </li>
         <% if (locals.user) { %>
         <li class="nav-item">
-          <a class="nav-link" href="#">Add Blog</a>
+          <a class="nav-link" href="/addBlog">Add Blog</a>
         </li>
         <% } %>
         <li class="nav-item dropdown">
@@ -43,19 +43,28 @@
             <li><a class="dropdown-item" href="#">Dark</a></li>
           </ul>
         </li>
+      </ul>
+      <ul class="navbar-nav">
         <% if (locals.user) { %>
         <li class="nav-item dropdown">
           <a
-            class="nav-link dropdown-toggle"
+            class="nav-link"
             href="#"
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            placeholder: logged in user pfp
+            <div class="">
+              <img
+                src="<%= user.profileImage %>"
+                height="40px"
+                width="40px"
+                style="border-radius: 50%; overflow: hidden; position: relative"
+              />
+            </div>
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="/user/profile">Profile</a></li>
             <li><a class="dropdown-item" href="/user/logout">Log out</a></li>
           </ul>
         </li>

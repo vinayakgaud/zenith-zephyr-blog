@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head') %>
+    <title>Add Blog | ZenithZephyr</title>
+  </head>
+  <body>
+    <%- include('./partials/preloader') %> <%- include('./partials/nav') %>
+    <div class="container mt-3">
+      <form action="/blog/addBlog" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+          <label for="exampleFileInput" class="form-label"
+            >Upload Cover Image</label
+          >
+          <input
+            type="file"
+            class="form-control"
+            id="exampleFileInput"
+            aria-describedby="coverFileHelp"
+            name="coverImage"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputTitle" class="form-label"
+            >Title of Blog</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputTitle"
+            aria-describedby="titleHelp"
+            name="blogTitle"
+          />
+        </div>
+        <div class="form-floating">
+          <textarea
+            class="form-control"
+            placeholder="Leave a comment here"
+            id="floatingTextarea2"
+            name="blogDescription"
+            style="height: 100px"
+          ></textarea>
+          <label for="floatingTextarea2">Description of Blog</label>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+      </form>
+    </div>
+    <%-include('./partials/script') %>
+  </body>
+</html>
