@@ -31,3 +31,5 @@ app.use("/comment", commentRouter);
 app.listen(PORT, () => {
   console.log(`Server is listening on ${PORT}`);
 });
+
+//for AWS we need to have index file as app file
