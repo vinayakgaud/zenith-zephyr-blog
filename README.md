@@ -17,19 +17,24 @@ To get started with ZenithZephyr, follow these steps:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/ZenithZephyr.git
+   ```
 2. **Install dependencies:**
    ```bash
    cd ZenithZephyr
    npm install
+   ```
 3. **Run the application:**
    ```bash
    npm run dev
-   
+
+   ```
+
 The application will be accessible at http://localhost:{update_your_port_on_env_file}.</br>
 
-*****Update all server related information and database detail on `.env.example` file*****
+**\***Update all server related information and database detail on `.env.example` file**\***
 
 ## Contributing</br>
+
 If you'd like to contribute to ZenithZephyr, please follow these guidelines:
 
 1. Fork the repository.
@@ -39,10 +44,13 @@ If you'd like to contribute to ZenithZephyr, please follow these guidelines:
 5. Submit a pull request.
 
 ## License</br>
+
 This project is licensed under the `MIT` License.
-  ```bash
-  Feel free to customize it further based on your project's specific details and requirements.
-  ```
+
+```bash
+Feel free to customize it further based on your project's specific details and requirements.
+```
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -50,15 +58,15 @@ This project is licensed under the `MIT` License.
 [![MIT License][license-shield]][license-url]
 
 **TODO:**
-`1. Add more features
-2. UI changes
-3. Theme switcher
-4. Deploy to AWS`
-<h4 align="center">Deployed on AWS, created with ❤️ by Vinayak Gaud</h4>
+`1. Add feature for profile update and reply for comment
+2. Theme switcher
+3. Deploy to AWS`
 
+<h4 align="center">Deployed on AWS, created with ❤️ by Vinayak Gaud</h4>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/vinayakgaud/zenith-zephyr-blog.svg?style=for-the-badge
 [contributors-url]: https://github.com/vinayakgaud/zenith-zephyr-blog/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/vinayakgaud/zenith-zephyr-blog.svg?style=for-the-badge
